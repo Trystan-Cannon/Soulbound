@@ -1,0 +1,13 @@
+name: Soulbound
+version: 1.0
+main: io.github.trystancannon.soulbound.core.Core
+
+commands:
+    soulbound:
+        description: Sets the item in hand as a soulbound item.
+        permission: soulbound.cando
+        
+permissions:
+    soulbound.cando:
+        description: Allows for the use of the /soulbound command.
+        default: op
